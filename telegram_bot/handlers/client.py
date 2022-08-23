@@ -6,7 +6,8 @@ from keyboards import kb_client
 # @dp.message_handler(commands=['start', 'help'])
 async def greeting(message: types.Message):
     await bot.send_message(message.from_user.id,
-                           'Greeting!   I`m bot-assistant, your guide to the world of English language!')
+                           'Greeting!\n\nI`m bot-assistant, your guide to the world of English language!\n\n'
+                           'About us - /about\nRegistration - /reg\nHelp - /help', reply_markup=kb_client)
 
 
 # @dp.message_handler(commands=['about'])
