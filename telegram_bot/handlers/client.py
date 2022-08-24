@@ -2,6 +2,7 @@ from aiogram import types, Dispatcher
 from create_bot import dp, bot
 from keyboards import kb_client
 from aiogram.types import ReplyKeyboardRemove
+from data_base import sqlite_db
 
 
 
@@ -9,7 +10,7 @@ from aiogram.types import ReplyKeyboardRemove
 async def greeting(message: types.Message):
     await bot.send_message(message.from_user.id,
                            'Greeting!\n\nI`m bot-assistant, your guide to the world of English language!\n\n'
-                           'Start - /start\nAbout us - /about\nContact us - /contact', reply_markup=kb_client)
+                           'About us - /about\nOur programs - /programs\nContact us - /contact', reply_markup=kb_client)
 
 
 # @dp.message_handler(commands=['about'])
@@ -24,6 +25,14 @@ async def contact(message: types.Message):
     await bot.send_message(message.from_user.id,
                            'Any more questions?\n\nFeel free to contact me: https://vk.com/funnymanalex', reply_markup=ReplyKeyboardRemove())
 
+
+@dp.message_handler(commands=['programs'])
+async def learning_programs(message : types.Message):
+    await sqlite_db.sql_read(message)
+
+
+
+
 ##### feature for SMART BOT
 
 # @dp.message_handler(lambda message: 'taxi' in message.text)
@@ -36,3 +45,4 @@ def register_handlers_client(dp: Dispatcher):
     dp.register_message_handler(greeting, commands=['start', 'help'])
     dp.register_message_handler(about_us, commands=['about'])
     dp.register_message_handler(contact, commands=['contact'])
+    dp.register_message_handler(learning_programs, commands=['programs'])

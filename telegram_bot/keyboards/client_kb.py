@@ -1,7 +1,7 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 
-b1 = KeyboardButton('/start')
-b2 = KeyboardButton('/about')
+b1 = KeyboardButton('/about')
+b2 = KeyboardButton('/programs')
 b3 = KeyboardButton('/contact')
 # b4 = KeyboardButton('Share your phone number', request_contact=True)  ##### button which send request to user
 # b5 = KeyboardButton('Adress request', request_location=True)          ##### button which send request to user
