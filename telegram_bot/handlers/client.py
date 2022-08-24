@@ -9,7 +9,7 @@ from aiogram.types import ReplyKeyboardRemove
 async def greeting(message: types.Message):
     await bot.send_message(message.from_user.id,
                            'Greeting!\n\nI`m bot-assistant, your guide to the world of English language!\n\n'
-                           'About us - /about\nRegistration - /reg\nHelp - /help', reply_markup=kb_client)
+                           'Start - /start\nAbout us - /about\nContact us - /contact', reply_markup=kb_client)
 
 
 # @dp.message_handler(commands=['about'])
@@ -24,7 +24,14 @@ async def contact(message: types.Message):
     await bot.send_message(message.from_user.id,
                            'Any more questions?\n\nFeel free to contact me: https://vk.com/funnymanalex', reply_markup=ReplyKeyboardRemove())
 
+##### feature for SMART BOT
 
+# @dp.message_handler(lambda message: 'taxi' in message.text)
+# async def taxi(message: types.Message):
+#     await message.reply('Try to check: https://call-taxi.ru/')
+
+
+###### declaration of our handlers
 def register_handlers_client(dp: Dispatcher):
     dp.register_message_handler(greeting, commands=['start', 'help'])
     dp.register_message_handler(about_us, commands=['about'])
