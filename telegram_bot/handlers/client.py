@@ -1,6 +1,8 @@
 from aiogram import types, Dispatcher
 from create_bot import dp, bot
 from keyboards import kb_client
+from aiogram.types import ReplyKeyboardRemove
+
 
 
 # @dp.message_handler(commands=['start', 'help'])
@@ -20,7 +22,7 @@ async def about_us(message: types.Message):
 # @dp.message_handler(commands=['contact'])
 async def contact(message: types.Message):
     await bot.send_message(message.from_user.id,
-                           'Any more questions?\n\nFeel free to contact me: https://vk.com/funnymanalex')
+                           'Any more questions?\n\nFeel free to contact me: https://vk.com/funnymanalex', reply_markup=ReplyKeyboardRemove())
 
 
 def register_handlers_client(dp: Dispatcher):
