@@ -7,7 +7,7 @@ def sql_start():
     base = sq.connect('school_easy_way.db')
     cur = base.cursor()
     if base:
-        print('Data base connected OK!')
+        print('Data base connected ------> OK!\nRegistration is allow.')
     base.execute('CREATE TABLE IF NOT EXISTS programs (img TEXT, name TEXT PRIMARY KEY, description TEXT, price TEXT)')
     base.commit()
 
@@ -20,3 +20,24 @@ async def sql_add_command(state):
 async def sql_read(message):
     for i in cur.execute('SELECT * FROM programs').fetchall():
         await bot.send_photo(message.from_user.id, i[0], f'{i[1]}\n\nDescription: {i[2]}\n\nPrice: {i[-1]}')
+
+
+
+
+
+
+
+def registration():
+    global base, cur
+    base = sq.connect('school_easy_way.db')
+    cur = base.cursor()
+    base.execute('CREATE TABLE IF NOT EXISTS students (name TEXT, surname TEXT, city TEXT, age INTEGER, '
+                 'level TEXT, phone INTEGER PRIMARY KEY)')
+    base.commit()
+
+
+
+async def sql_add_registration(state):
+    async with state.proxy() as data:
+        cur.execute('INSERT INTO students VALUES (?, ?, ?, ?, ?, ?)', tuple(data.values()))
+        base.commit()

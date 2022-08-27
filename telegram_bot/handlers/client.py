@@ -33,8 +33,8 @@ async def learning_programs(message : types.Message):
 
 
 
-##### feature for SMART BOT
-
+# #### feature for SMART BOT
+#
 # @dp.message_handler(lambda message: 'taxi' in message.text)
 # async def taxi(message: types.Message):
 #     await message.reply('Try to check: https://call-taxi.ru/')
