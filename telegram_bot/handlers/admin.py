@@ -33,7 +33,7 @@ async def cm_start(message: types.Message):
         await message.reply('Load a photo')
 
 
-###### candel handler
+###### canсel handler
 # @dp.message_handler(state='*', commands=['cancel'])
 # @dp.message_handler(Text(equals='cancel', ignore_case=True), state='*')
 async def cancel_handler(message: types.Message, state: FSMContext):

@@ -2,6 +2,8 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram import types, Dispatcher
 from create_bot import dp, bot
+from aiogram.dispatcher.filters import Text
+
 
 
 class Cust_Reg(StatesGroup):
@@ -18,6 +20,18 @@ class Cust_Reg(StatesGroup):
 async def reg_start(message: types.Message):
     await Cust_Reg.name.set()
     await message.reply('Specify your name ')
+
+
+
+###### canсel handler
+# @dp.message_handler(state='*', commands=['cancel'])
+# @dp.message_handler(Text(equals='cancel', ignore_case=True), state='*')
+async def cancel_handler(message: types.Message, state: FSMContext):
+    current_state = await state.get_state()
+    if current_state is None:
+        return
+    await state.finish()
+    await message.reply('OK!')
 
 
 # catch #1 answered from users
@@ -82,6 +96,7 @@ async def load_phone(message: types.Message, state: FSMContext):
 ###### declaration of our handlers
 def register_handlers_registration(dp: Dispatcher):
     dp.register_message_handler(reg_start, commands=['reg'], state=None)
+    dp.register_message_handler(cancel_handler, Text(equals='cancel', ignore_case=True), state='*')
     dp.register_message_handler(load_name, state=Cust_Reg.name)
     dp.register_message_handler(load_surname, state=Cust_Reg.surname)
     dp.register_message_handler(load_age, state=Cust_Reg.age)
