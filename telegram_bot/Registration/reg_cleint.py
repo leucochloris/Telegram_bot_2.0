@@ -84,6 +84,7 @@ async def load_level(message: types.Message, state: FSMContext):
 async def load_phone(message: types.Message, state: FSMContext):
     async with state.proxy() as data:
         data['phone'] = message.text
+        await message.reply('Thanks!\n\nWe will contact you soon! ☎️☎️☎️')
     await sqlite_db.sql_add_registration(state)
     await state.finish()
 

@@ -10,7 +10,7 @@ from data_base import sqlite_db
 async def greeting(message: types.Message):
     await bot.send_message(message.from_user.id,
                            'Greeting!\n\nI`m bot-assistant, your guide to the world of English language!\n\n'
-                           'About us - /about\nOur programs - /programs\nContact us - /contact', reply_markup=kb_client)
+                           'About us - /about\nOur programs - /programs\nRegistration - /reg\nContact us - /contact', reply_markup=kb_client)
 
 
 # @dp.message_handler(commands=['about'])
@@ -23,7 +23,7 @@ async def about_us(message: types.Message):
 # @dp.message_handler(commands=['contact'])
 async def contact(message: types.Message):
     await bot.send_message(message.from_user.id,
-                           'Any more questions?\n\nFeel free to contact me: https://vk.com/funnymanalex', reply_markup=ReplyKeyboardRemove())
+                           'Any more questions?\n\nFeel free to contact me: https://vk.com/funnymanalex')#, reply_markup=ReplyKeyboardRemove()) ------ hide keyborad
 
 
 @dp.message_handler(commands=['programs'])
