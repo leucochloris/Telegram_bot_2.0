@@ -3,7 +3,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram import types, Dispatcher
 from create_bot import dp, bot
 from aiogram.dispatcher.filters import Text
-
+from data_base import sqlite_db
 
 
 class Cust_Reg(StatesGroup):
@@ -84,10 +84,7 @@ async def load_level(message: types.Message, state: FSMContext):
 async def load_phone(message: types.Message, state: FSMContext):
     async with state.proxy() as data:
         data['phone'] = message.text
-
-    async with state.proxy() as data:
-        await message.reply(str(data))
-
+    await sqlite_db.sql_add_registration(state)
     await state.finish()
 
 

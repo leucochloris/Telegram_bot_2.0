@@ -81,7 +81,7 @@ async def load_price(message: types.Message, state: FSMContext):
     if message.from_user.id == ID:
         async with state.proxy() as data:
             data['price'] = message.text
-        await sqlite_db.sql_add_command(state)
+        await sqlite_db.sql_add_command(State)
         await state.finish()
 
 

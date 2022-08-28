@@ -5,8 +5,9 @@ from data_base import sqlite_db
 from Registration import reg_cleint
 
 async def on_startup(_):
-    print('Bot begin her work....')
+    print('\nBot begin her work....')
     sqlite_db.sql_start()
+    sqlite_db.registration()
 
 
 ##### here we leave our regist of handlers
