@@ -5,7 +5,7 @@ from create_bot import dp
 # @dp.message_handler()
 async def echo_send(message: types.Message):
     # await message.answer(message.text)                         #################### отправить сообщение
-    await message.reply('Oops, something went wrong....')  ###################### ответить на сообщение
+    await message.reply('Oops, something went wrong....\n\nTry to use command /start')  ###################### ответить на сообщение
     # await bot.send_message(message.from_user.id, message.text) ######################## написать в ЛС
 
 
