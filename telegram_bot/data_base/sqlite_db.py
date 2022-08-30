@@ -39,5 +39,5 @@ def registration():
 
 async def sql_add_registration(state):
     async with state.proxy() as data2:
-        cur.execute('INSERT INTO students VALUES (?, ?, ?, ?, ?, ?)', tuple(data2.values()))
+        cur.execute("INSERT INTO students (name, surname, age, city, level, phone) VALUES (?, ?, ?, ?, ?, ?)", tuple(data2.values()))
         base.commit()
