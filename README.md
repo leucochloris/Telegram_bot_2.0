@@ -5,6 +5,10 @@ Abstract client - an ordinary entrepreneur (owner of an English language school)
 
 ![image](https://user-images.githubusercontent.com/108606736/187730655-dcb47b10-941c-457f-996d-36dac6664c2b.png)
 
+Here customers may find out some information about the company. 
+
+![image](https://user-images.githubusercontent.com/108606736/187731644-d6cc9074-bf08-4e26-9184-1308ebb890f8.png)
+
 
 
 We will be use .bat file as main console and start button
