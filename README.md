@@ -23,4 +23,4 @@ All data aggregates in databese.
 
 
 ---
-###### The bot was not placed on the server, as there was no economic sense in it
+###### The bot wasn`t placed on the server, as there was no economic sense in it
