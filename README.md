@@ -22,5 +22,5 @@ All data aggregates in databese.
 ![image](https://user-images.githubusercontent.com/108606736/187732770-3df0dc5b-d496-4d50-bd9f-70c9fd22dd4f.png)
 
 
---
+---
 ###### The bot was not placed on the server, as there was no economic sense in it
