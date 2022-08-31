@@ -27,7 +27,7 @@ async def sql_read(message):
 
 
 async def new_users(message):
-    for new_st in cur.execute('SELECT * FROM students where is_active = 0').fetchall():
+    for new_st in cur.execute('SELECT * FROM students where join_date >= date(\'now\', \'-1 day\') and is_active = 0').fetchall():
         # await bot.send_message(message.from_user.id,  f'{new_st[1]}\n\nDescription: {new_st[2]}\n\nPrice: {new_st[6]}')
         await message.reply(f'New *lead #{new_st[0]}*, need to call!\n\nName: *{new_st[1]} {new_st[2]}*\nNumber: *{new_st[6]}*\nCity: *{new_st[3]}*\nJoin to us at *{new_st[7]}*', parse_mode= "Markdown")
 
