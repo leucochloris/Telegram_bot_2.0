@@ -3,6 +3,14 @@
 
 Abstract client - an ordinary entrepreneur (owner of an English language school) which needs a channel to attract customers.
 
+In the bot- there are several roles:
+
+- client (select) - below.
+- administrator (SIUD)
+- operator (select)
+
+
+
 ![image](https://user-images.githubusercontent.com/108606736/187730655-dcb47b10-941c-457f-996d-36dac6664c2b.png)
 
 Here customers may find out some information about the company. 
@@ -20,6 +28,21 @@ And also - register for the subsequent conclusion of the contract.
 All data aggregates in databese.
 
 ![image](https://user-images.githubusercontent.com/108606736/187732770-3df0dc5b-d496-4d50-bd9f-70c9fd22dd4f.png)
+
+
+
+Role administrator: enter data into the database via telegram.
+
+![image](https://user-images.githubusercontent.com/108606736/187751399-e406f7e4-04be-497c-a1b0-8d1677354b33.png)
+
+
+![image](https://user-images.githubusercontent.com/108606736/187751136-72bf8183-f4aa-4943-9e8c-bad549d5ccd3.png)
+
+
+
+Role operator (sales department): upload data about new unprocessed clients.
+
+![image](https://user-images.githubusercontent.com/108606736/187751792-33d0951b-1716-4223-8f22-b7a77145efb7.png)
 
 
 ---
