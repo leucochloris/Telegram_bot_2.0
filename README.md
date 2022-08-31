@@ -5,11 +5,11 @@ Abstract client - an ordinary entrepreneur (owner of an English language school)
 
 In the bot- there are several roles:
 
-- client (select) - below.
+- client (select)
 - administrator (SIUD)
 - operator (select)
 
-
+## Role client: viewing information messages
 
 ![image](https://user-images.githubusercontent.com/108606736/187730655-dcb47b10-941c-457f-996d-36dac6664c2b.png)
 
@@ -31,7 +31,7 @@ All data aggregates in databese.
 
 
 
-Role administrator: enter data into the database via telegram.
+## Role administrator: enter data into the database via telegram.
 
 ![image](https://user-images.githubusercontent.com/108606736/187751399-e406f7e4-04be-497c-a1b0-8d1677354b33.png)
 
@@ -40,7 +40,7 @@ Role administrator: enter data into the database via telegram.
 
 
 
-Role operator (sales department): upload data about new unprocessed clients.
+## Role operator (sales department): upload data about new unprocessed clients.
 
 ![image](https://user-images.githubusercontent.com/108606736/187751792-33d0951b-1716-4223-8f22-b7a77145efb7.png)
 
