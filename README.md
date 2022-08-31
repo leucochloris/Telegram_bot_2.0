@@ -33,12 +33,9 @@ All data aggregates in databese.
 
 ## Role administrator: enter data into the database via telegram.
 
-![image](https://user-images.githubusercontent.com/108606736/187751399-e406f7e4-04be-497c-a1b0-8d1677354b33.png)
-
-
 ![image](https://user-images.githubusercontent.com/108606736/187751136-72bf8183-f4aa-4943-9e8c-bad549d5ccd3.png)
 
-
+![image](https://user-images.githubusercontent.com/108606736/187751399-e406f7e4-04be-497c-a1b0-8d1677354b33.png)
 
 ## Role operator (sales department): upload data about new unprocessed clients.
 
