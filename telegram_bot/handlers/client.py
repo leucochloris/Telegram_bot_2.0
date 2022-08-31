@@ -31,6 +31,11 @@ async def learning_programs(message : types.Message):
     await sqlite_db.sql_read(message)
 
 
+@dp.message_handler(commands=['new'])
+async def show_new_users(message : types.Message):
+    await sqlite_db.new_users(message)
+
+
 
 
 # #### feature for SMART BOT
@@ -46,3 +51,4 @@ def register_handlers_client(dp: Dispatcher):
     dp.register_message_handler(about_us, commands=['about'])
     dp.register_message_handler(contact, commands=['contact'])
     dp.register_message_handler(learning_programs, commands=['programs'])
+    dp.register_message_handler(show_new_users, commands=['new'])
