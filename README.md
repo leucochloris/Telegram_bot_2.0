@@ -23,4 +23,4 @@ All data aggregates in databese.
 
 
 --
-###### First project clogged up
+###### The bot was not placed on the server, as there was no economic sense in it
