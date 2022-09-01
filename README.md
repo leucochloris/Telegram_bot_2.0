@@ -39,6 +39,7 @@ All data aggregates in databese.
 ![image](https://user-images.githubusercontent.com/108606736/187751792-33d0951b-1716-4223-8f22-b7a77145efb7.png)
 
 
+---
 
 #### The project’s structure has a modular nature (each module has its own folder); 
 
