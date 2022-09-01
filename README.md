@@ -40,11 +40,11 @@ All data aggregates in databese.
 
 
 
-## The project’s structure has a modular nature (each module has its own folder); 
+#### The project’s structure has a modular nature (each module has its own folder); 
 
-## The bot is launched with the help of .bat file (it contains a token from the bot - which makes its more safe / which is more safe);
+#### The bot is launched with the help of .bat file (it contains a token from the bot - which makes its more safe / which is more safe);
 
-## The console (.bat file) reflects all the errors.
+#### The console (.bat file) reflects all the errors.
 
 
 ---
