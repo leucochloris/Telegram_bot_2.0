@@ -1,4 +1,4 @@
-# Telegram bot for agregaty customers data:  @school_easy_way_bot
+# Telegram bot preCRM:  @school_easy_way_bot
 
 ## Abstract client - an ordinary entrepreneur (owner of an English language school) which needs a channel to attract customers.
 
