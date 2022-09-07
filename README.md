@@ -10,7 +10,7 @@
 
 ![image](https://user-images.githubusercontent.com/108606736/188895471-4503a9b6-97c7-4303-a545-c5636473ee42.png)
 
-### Role client: viewing information messages
+### Role CUSTOMER: viewing information messages
 
 ![image](https://user-images.githubusercontent.com/108606736/187730655-dcb47b10-941c-457f-996d-36dac6664c2b.png)
 
@@ -29,13 +29,13 @@
 
 
 
-### Role administrator: enter data into the database via telegram.
+### Role ADMINISTRATOR: enter data into the database via telegram.
 
 ![image](https://user-images.githubusercontent.com/108606736/187751136-72bf8183-f4aa-4943-9e8c-bad549d5ccd3.png)
 
 ![image](https://user-images.githubusercontent.com/108606736/187751399-e406f7e4-04be-497c-a1b0-8d1677354b33.png)
 
-## Role operator (sales department): upload data about new unprocessed clients.
+## Role OPERATOR (sales department): upload data about new unprocessed clients.
 
 ![image](https://user-images.githubusercontent.com/108606736/187751792-33d0951b-1716-4223-8f22-b7a77145efb7.png)
 
