@@ -8,7 +8,7 @@
 
 ### There are 3 roles here...
 
-![image](https://user-images.githubusercontent.com/108606736/188944456-356baef6-4656-41e0-9609-7c8d2a39b577.png)
+![image](https://user-images.githubusercontent.com/108606736/188949541-bb3bcc7d-7d90-47e8-bb56-7be09dab9196.png)
 
 
 ### **Role CUSTOMER: viewing information messages**
