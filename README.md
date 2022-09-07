@@ -3,11 +3,7 @@
 
 Abstract client - an ordinary entrepreneur (owner of an English language school) which needs a channel to attract customers.
 
-There are several roles of the bot:
-
-- client (select)
-- administrator (SIUD)
-- operator (select)
+![image](https://user-images.githubusercontent.com/108606736/188895471-4503a9b6-97c7-4303-a545-c5636473ee42.png)
 
 ## Role client: viewing information messages
 
