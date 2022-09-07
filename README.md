@@ -1,21 +1,20 @@
-# Telegram bot for agregaty customers data
-## @school_easy_way_bot
+# Telegram bot for agregaty customers data:  @school_easy_way_bot
 
-Abstract client - an ordinary entrepreneur (owner of an English language school) which needs a channel to attract customers.
+## Abstract client - an ordinary entrepreneur (owner of an English language school) which needs a channel to attract customers.
 
 
 ![image](https://user-images.githubusercontent.com/108606736/188912924-0f5844ff-6944-4d4f-989d-273620650560.png)
 
 
-There are 3 roles here...
+### There are 3 roles here...
 
 ![image](https://user-images.githubusercontent.com/108606736/188895471-4503a9b6-97c7-4303-a545-c5636473ee42.png)
 
-## Role client: viewing information messages
+### Role client: viewing information messages
 
 ![image](https://user-images.githubusercontent.com/108606736/187730655-dcb47b10-941c-457f-996d-36dac6664c2b.png)
 
-Here customers may find out some information about the company, programs and their prices that the company provides, and also register for the subsequent conclusion of the contract. 
+#### Here customers may find out some information about the company, programs and their prices that the company provides, and also register for the subsequent conclusion of the contract. 
 
 ![image](https://user-images.githubusercontent.com/108606736/187731644-d6cc9074-bf08-4e26-9184-1308ebb890f8.png)
 
@@ -24,13 +23,13 @@ Here customers may find out some information about the company, programs and the
 
 ![image](https://user-images.githubusercontent.com/108606736/187732317-cbaa3347-2145-4ae4-89a6-00aa7c022bc2.png)
 
-All data aggregates in databese.
+#### All data aggregates in databese.
 
 ![image](https://user-images.githubusercontent.com/108606736/187732770-3df0dc5b-d496-4d50-bd9f-70c9fd22dd4f.png)
 
 
 
-## Role administrator: enter data into the database via telegram.
+### Role administrator: enter data into the database via telegram.
 
 ![image](https://user-images.githubusercontent.com/108606736/187751136-72bf8183-f4aa-4943-9e8c-bad549d5ccd3.png)
 
