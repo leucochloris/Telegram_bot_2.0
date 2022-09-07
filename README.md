@@ -10,7 +10,7 @@
 
 ![image](https://user-images.githubusercontent.com/108606736/188895471-4503a9b6-97c7-4303-a545-c5636473ee42.png)
 
-### Role CUSTOMER: viewing information messages
+### **Role CUSTOMER: viewing information messages**
 
 ![image](https://user-images.githubusercontent.com/108606736/187730655-dcb47b10-941c-457f-996d-36dac6664c2b.png)
 
