@@ -60,5 +60,5 @@ All data is saved on a server, no additional installation needed.
 
 
 
-
+__________________________________________________
 ###### The bot wasn`t placed on the server, as there was no economic sense in it
