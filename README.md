@@ -41,6 +41,22 @@ All data aggregates in databese.
 ![image](https://user-images.githubusercontent.com/108606736/187751792-33d0951b-1716-4223-8f22-b7a77145efb7.png)
 
 
+## Program description
+
+1. General information: The "Telegram bot" program is intended for aggregation of customers' data and is a guidebook for a user. It was carried out on Python (aiogram module). 
+
+2. The functional purpose: The program is designed to solve tasks – informing and aggregating the user's data.
+
+3. The used technical means: The program works with the help of TELEGRAM app (desktop application OR Android/iOS application).
+
+4. The start and work: First of all, it's necessary to find a bot @ew_school_bot in the app and press on "START". If it has already been launched - enter a random text and you will see tips with instructions. 
+
+All data is saved on a server, no additional installation needed. 
+
+5. Input data - It's necessary to click on "START" to launch the bot (if it's a first run). For the following starts you'll have to enter a random text to upload a message with the information. 
+
+6. The aggregation of the input data: all data which was collected from the user is aggregated in the database (school_easy_way.db file -  students spreadsheet) and is available for the operators and for those whose role involves uploading the data from the database.
+
 
 - - -
 ###### The bot wasn`t placed on the server, as there was no economic sense in it
