@@ -50,7 +50,6 @@ All data aggregates in databese.
 3. The used technical means: The program works with the help of TELEGRAM app (desktop application OR Android/iOS application).
 
 4. The start and work: First of all, it's necessary to find a bot @ew_school_bot in the app and press on "START". If it has already been launched - enter a random text and you will see tips with instructions. 
-
 All data is saved on a server, no additional installation needed. 
 
 5. Input data - It's necessary to click on "START" to launch the bot (if it's a first run). For the following starts you'll have to enter a random text to upload a message with the information. 
