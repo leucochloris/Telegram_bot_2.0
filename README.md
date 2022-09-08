@@ -3,7 +3,8 @@
 ## Abstract client - an ordinary entrepreneur (owner of an English language school) which needs a channel to attract customers.
 
 
-![image](https://user-images.githubusercontent.com/108606736/188912924-0f5844ff-6944-4d4f-989d-273620650560.png)
+![BUSINESS FUNCTION](https://user-images.githubusercontent.com/108606736/189052766-9a7150fa-8b90-4d40-81af-e8e362fd6a3e.png)
+
 
 
 ### There are 3 roles here...
