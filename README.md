@@ -57,5 +57,8 @@ All data is saved on a server, no additional installation needed.
 6. The aggregation of the input data: all data which was collected from the user is aggregated in the database (school_easy_way.db file -  students spreadsheet) and is available for the operators and for those whose role involves uploading the data from the database.
 
 
-- - -
+
+
+
+
 ###### The bot wasn`t placed on the server, as there was no economic sense in it
