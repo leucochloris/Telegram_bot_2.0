@@ -1,4 +1,4 @@
-# Telegram bot:  @school_easy_way_bot
+# Telegram bot:  @ew_school_bot
 
 ## Abstract client - an ordinary entrepreneur (owner of an English language school) which needs a channel to attract customers.
 
