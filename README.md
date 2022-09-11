@@ -11,7 +11,7 @@
 ![image](https://user-images.githubusercontent.com/108606736/188949541-bb3bcc7d-7d90-47e8-bb56-7be09dab9196.png)
 
 
-### **Role CUSTOMER: viewing information messages**
+## **Role CUSTOMER: viewing information messages**
 
 ![image](https://user-images.githubusercontent.com/108606736/187730655-dcb47b10-941c-457f-996d-36dac6664c2b.png)
 
@@ -30,7 +30,7 @@ All data aggregates in databese.
 
 
 
-### **Role ADMINISTRATOR: enter data into the database via telegram**
+## **Role ADMINISTRATOR: enter data into the database via telegram**
 
 ![image](https://user-images.githubusercontent.com/108606736/187751136-72bf8183-f4aa-4943-9e8c-bad549d5ccd3.png)
 
